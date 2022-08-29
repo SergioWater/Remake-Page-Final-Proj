@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,13 +19,36 @@ li{
     list-style-type: none;
 }
 
+nav{
+    height: 80px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
 
 /* Landing */
 .nav__container{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
-   
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
-h1{
-    font-size: 56px;
-    text-align: center;
+.nav__logo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 900;
+    border-bottom-width: 0px;
+    font-size: 1.5rem !important;
+    padding: 0 24px;
+}
+.logo{
+    width: 56px;
+    margin-right: 0.75rem;
+}
+.nav__link{
+    margin-left: 16px;
 }
