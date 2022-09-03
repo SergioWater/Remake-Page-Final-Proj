@@ -131,8 +131,18 @@ nav{
     font-size: 28px;
     color: #243E63;
 }
-.btn{
-    border-radius: 45px;
+
+.box1{
+    display: flex;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 9999px;
+    border-width: 2px;
+    width: 100%;
+    font-weight: 500;
+    transition-duration: 300ms;
 }
 .some{
     position: relative;
