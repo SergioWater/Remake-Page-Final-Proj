@@ -116,6 +116,7 @@ nav{
     display: flex;
     flex-direction: column;
 }
+
 .right-side{
     width: 60%;
 }
@@ -130,24 +131,44 @@ nav{
     text-align: left;
     font-size: 28px;
     color: #243E63;
+    padding-bottom: 48px;
 }
 
 .box1{
     display: flex;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 9999px;
+    padding-left: 34px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     border-width: 2px;
+    border-radius: 999px;
     width: 100%;
+    max-width: 580px;
     font-weight: 500;
+    font-size: 26px;
     transition-duration: 300ms;
+    border: 2px solid #7d7f85;;
+    
 }
-.some{
-    position: relative;
-    max-width: 28rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+
+.button1{
+    background-color: #6415FF;
+    color: #fff;
+    height: 85%;
+    border: none;
+    border-width: 2px;
+    border-radius: 999px;
+    width: 100%;
+    max-width: 225px;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center; 
+    transition-duration: 300ms;
+    margin-left: -235px; 
+    margin-top: 7.25px;
+
+}
+.btn{
+    display: flex;
+
 }
