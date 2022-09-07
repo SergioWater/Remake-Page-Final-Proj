@@ -210,6 +210,10 @@ nav{
  
  */
 
+ .container{
+    width: 1024px;
+    margin: 0 auto;
+ }
  #features{
     min-height: 100vh;
     flex: 1;
@@ -223,7 +227,11 @@ nav{
  }
  .feat__title{
     font-size: 73px;
+    color: #243E63;
  }
  .feat__desc{
-    
+    max-width: 800px;
+    padding-top: 32px;
+    opacity: .5;
+    margin: 0 auto;
  }
