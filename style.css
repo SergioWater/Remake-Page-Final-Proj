@@ -235,3 +235,11 @@ nav{
     opacity: .5;
     margin: 0 auto;
  }
+
+ .list{
+    display: flex;
+
+ }
+ .list__title{
+    
+ }
