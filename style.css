@@ -246,7 +246,6 @@ nav{
  }
  .lists{
     display: flex;
-    flex-direction: row;
 }
  .list{
     display: flex;
@@ -257,9 +256,15 @@ nav{
     font-size: 40px;
     color: #233E63;
  }
- .sec{
-    padding-top: 40%;
+ .top1{
+    padding-top: 10%;
     padding-right: 32px;
  }
-
+.sec{
+    padding-top: 5%;
+}
+.list__para{
+    font-size: 24px;
+    color: rgba(124,139,161);
+}
 
