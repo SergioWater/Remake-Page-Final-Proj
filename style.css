@@ -245,11 +245,8 @@ nav{
     margin: 0 auto;
  }
  .lists{
-    display: flex;
 }
  .list{
-    display: flex;
-    flex-wrap: wrap;
  }
 
  .list__title{
@@ -267,4 +264,7 @@ nav{
     font-size: 24px;
     color: rgba(124,139,161);
 }
-
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
