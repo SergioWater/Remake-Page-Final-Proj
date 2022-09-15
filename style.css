@@ -226,7 +226,6 @@ nav{
     margin-bottom: 40px;
 }
 .box{
-    border: 1px black solid;
     width: calc(100%/3);
     height: 300px;
     display: flex;
@@ -256,8 +255,9 @@ nav{
     opacity: .5;
 }
 .ft__img{
-    width: 36px;
-    border: 1px #242424 solid;
+    width: 90px;
+    padding: 25px;
+    border: 1px #24242427 solid;
     border-radius: 50%;
     
 }
@@ -265,5 +265,5 @@ nav{
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    padding: 16px;
+    padding:  0 0 16px 16px;
 }
