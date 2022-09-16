@@ -350,7 +350,7 @@ Steps
     font-size: 80px;
 }
 .rightside{
-    padding-left: 32px;
+    padding-left: 108px;
 }
 .number{
     text-align: left;
@@ -358,4 +358,33 @@ Steps
 .steps__wrapper{
     display: flex;
     flex-direction: row;
+}
+.steps__num
+{
+    display: flex;
+}
+.step__num{
+    font-size: 60px;
+    opacity: .2;
+    margin-top: -8px;
+}
+.step__description{
+    margin-left: 32px;
+}
+.steps__desc--para{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    width: 80%;
+    opacity: .5;
+    padding-bottom: 40px;
+}
+.steps__desc--title{
+    text-align: left;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.steps__wrapper{
+    display: flex;
+    flex-direction: column;
 }
