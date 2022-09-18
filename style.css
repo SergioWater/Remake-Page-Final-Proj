@@ -394,9 +394,6 @@ Values
 
 */
 
-.value__row{
-
-}
 .value__box--wrapper{
     display: flex;
 }
@@ -471,7 +468,10 @@ margin-bottom: 30px;
 Pricing
 
 */
-
+.row_pricing
+{
+    max-width: 1800px;
+}
 .pricing__title{
     margin: 0 auto;
     text-align: center;
@@ -493,8 +493,73 @@ Pricing
     flex-direction: wrap;
 }
 .pricing__box{
-    width: calc(90%/3);
+    width: calc(100%/3);
     display: flex;
     flex-direction: column;
-    border: #7d7f85 solid 1px;
+
+}
+.top-pricing{
+    border: #7d7f854d solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 225px;
+}
+.mid-pricing{
+    border: #7d7f854d solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 0 18px 0;
+}
+.bott-pricing{
+    border: #7d7f854d solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.top__color{
+  height: 100%;
+  max-height: 8px;
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  border-top-right-radius: 999px;
+  border-top-left-radius: 999px;
+}
+.pricing__top{
+    font-size: 28px;
+}
+.pricing__money{
+    font-size: 56px;
+    margin-top: -20px;
+    
+}
+.monthly{
+    font-size: 24px;
+    color: #7c8ba1;
+    margin-top: -20px;
+}
+.pricing__listing{
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #7d7f85;
+    
+}
+.pricing__mid-title{
+    font-size: 30px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.button3{
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 999px;
+    border-style: none;
+     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    
 }
