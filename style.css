@@ -620,6 +620,27 @@ Box
 
 */
 
+.button--pink{
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 999px;
+    border-style: none;
+    background-color: rgb(245 101 101);
+}
+.button--purple{
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 999px;
+    border-style: none;
+    border-color: rgb(160 174 192);
+}
+
+
+
 /* 
 
 Footer
