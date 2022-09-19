@@ -95,10 +95,10 @@ nav{
     padding: 15px 50px;
     border-radius: 45px;
     color: #fff; 
-    transition: all 400ms ease-in
+        transition: all 300ms ease;
 }
 .link__hover-effect{
-    transition: all 400ms ease-in
+        transition: all 300ms ease;
 }
 
 .link__hover-effect:hover{
@@ -113,7 +113,7 @@ nav{
 .row
 {
     width: 100%;
-    max-width: 2000px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 .temp__container{
@@ -131,7 +131,7 @@ nav{
 }
 .React{
     
-    font-size: 80px;
+    font-size: 75px;
     text-align: left;
     padding-bottom: 24px;
 }
@@ -145,7 +145,7 @@ nav{
 
 .box1{
     display: flex;
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    
     padding-left: 34px;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -156,7 +156,8 @@ nav{
     font-weight: 500;
     font-size: 26px;
     transition-duration: 300ms;
-    border: 2px solid #7d7f85;;
+    border: 3px solid #7d7f8538;
+    color: #7d7f8502;
     
 }
 .button1{
@@ -174,7 +175,7 @@ nav{
     text-align: center; 
     transition-duration: 300ms;
     margin-left: -236px; 
-    margin-top: 7.25px;
+    margin-top: 5.25px;
 
 }
 .button1:hover{
@@ -193,8 +194,8 @@ nav{
 .picas{
     opacity: .5;
 }
-#landing{
-    height: 75vh;
+#section{
+    height: 100vh;
 }
 /*
  Features 
@@ -393,7 +394,11 @@ Steps
 Values
 
 */
-
+.value__row{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
 .value__box--wrapper{
     display: flex;
 }
@@ -491,11 +496,13 @@ Pricing
 .pricing--wrapper{
     display: flex;
     flex-direction: wrap;
+    
 }
 .pricing__box{
     width: calc(100%/3);
     display: flex;
     flex-direction: column;
+    margin-right: 48px;
 
 }
 .top-pricing{
@@ -560,6 +567,67 @@ Pricing
     font-size: 20px;
     border-radius: 999px;
     border-style: none;
-     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-    
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+.pricing__mid{
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+.mid__text{
+    color: white;
+}
+.color__mid{
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+.button__white{
+    color: #6415FF;
+    background: #fff;
+    font-weight: 500;
+}
+.top__color-red{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+.button__red{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+/* 
+
+TESTIMONIALS
+
+*/
+.test__left{
+    width: 50%;
+    margin-right: 32px;
+}
+.test__img{
+    width: 100%;
+}
+.test__row{
+    display: flex;
+}
+.test__right{
+    margin-left: 32px;
+    width: 50%;
+}
+/* 
+
+FAQ
+*/
+
+
+
+/* 
+Box
+
+*/
+
+/* 
+
+Footer
+
+*/
+
+.footer__row
+{
+    max-width: 1200px;
+    /* background-color: rgb(100 21 255 / var(--tw-bg-opacity)) */
 }
