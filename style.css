@@ -608,6 +608,43 @@ TESTIMONIALS
     margin-left: 32px;
     width: 50%;
 }
+.slide__container{
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.img__container{
+    width: 1344px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button__container{
+    top: -20px;
+    position: relative;
+    margin-top: -340px;
+    margin-left: 400px;
+}
+.slider__button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 1px;
+    background-color: lightgray;
+}
+#slider-image-1:target ~ .img__container{
+    left: 0px;
+}
+#slider-image-2:target ~ .img__container{
+    left: -698px;
+}
 /* 
 
 FAQ
@@ -652,3 +689,4 @@ Footer
     max-width: 1200px;
     /* background-color: rgb(100 21 255 / var(--tw-bg-opacity)) */
 }
+
